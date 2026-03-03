@@ -78,7 +78,7 @@ class AuditAgent:
             print(f"🎶 行动: {tool_name}{tool_input}")
 
             observation = self._execute_tool(tool_name, tool_input)
-            print(f"👀 观察: {observation}")
+            # print(f"👀 观察: {observation}")
 
             # 将本轮的 Action 和 Observation 添加到文本历史（调试用）
             self.history.append(f"Action: {action}")

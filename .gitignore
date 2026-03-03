@@ -24,3 +24,4 @@ env/
 # 输出数据文件
 *.sarif
 output*.json
+*.json
